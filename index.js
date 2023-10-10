@@ -1,6 +1,6 @@
 const hashlist=require('./hashlist.json')
 const exclude=require('./excludeWallets.json') //exclude list includes exchange-owned wallets: magic eden, hyperspace, tensor
-const { getOwnersWithQty}=require('./getOwner');
+const { getOwnersWithQty}=require('./src/getOwner');
 const {write_data, append_info}=require("./writefile.js")
 
 require("dotenv").config();

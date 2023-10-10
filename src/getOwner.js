@@ -1,6 +1,6 @@
 require("dotenv").config();
 const web3 = require('@solana/web3.js');
-const {CONNECTION}=require('./config.js')
+const {CONNECTION}=require('../config.js')
 const splToken = require('@solana/spl-token');
 
 
